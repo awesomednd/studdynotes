@@ -1,0 +1,76 @@
+Data Transmission
+
+Computers need to transmit data to and from one another this is normally done using packets
+
+Structure of a data packet 
+
+A data packet has a header payload and trailer
+
+Header:
+The header contains the Destenation address the Packet Number and the Orgin Address
+
+The Destination and orgin address contain the IP address of the sender and reciver.
+
+Payload:
+
+The payload contains the actual data of the packet
+
+Trailer:
+
+This contains data to say that this is the end of the data packet
+
+Packet Switching
+
+Their are many diffrent ways a packet and take to get from destination to destination the theroy on how this works is called packet switching. With packet switching the data packet will go from router to router until it reaches its destination. The packet will always try to take the shortest path with the least hops.
+
+Methods of Data transmission
+
+Serial Data Transmission
+
+With Serial Data transmission Data can only be sent in one direction one bit at a time.
+
+Parallel Data Transmission 
+
+With Parallel Data Transmission Data is 8 bits at a time and only in one directions 
+
+Simplex Data Transmission
+
+With simplex data transmission data can only be sent in one direction
+
+Half-Duplex Data Transmission
+
+With Half-Duplex data transmission data can be sent in both directions but only one direction at a time. 
+
+Full-Duplex Data Transmission
+
+With Full-Duplex data transmission data can be sent in both directions at the same time.
+
+The Universal Serial Bus (USB) Interface
+
+The USB interface is a standerdised architecture for devices to be connected to computers like usb drives cameras and hard drives.
+
+Detecting Errors in Data Transmission
+
+errors can happen in Data transmission we have diffrent ways of detecting and fixing them.
+
+Parity Check
+
+A Parity Check works by adding the number of 1 with a parity bit. Say we have an even parity check and we have the number 0110111 with a parity bit of 1 we have 5 + 1 = 6 so this passes. Now lets see what would happen if we had an error in the transmission and we have 0110011 and a parity bit of 1 so we have 4 + 1 = 5. This tells us that the data that was transmitted is incorrect and that something has to be done.
+
+Checksum
+
+A checksum is a calculation that can be used to see if data has beem changed causing the checksums to be completely diffrent.
+
+Echo Check
+
+With and Echo Check when the data is recived the recipiant sends it back to the sender which compares the echod value with the orginal value to see if it was sent with any errors.
+
+Automatic Repeat Request (ARQ)
+
+When a computer detects an error it sends an Automatic Repeat Request causing the data to be sent again until it is error free.
+
+Encryption
+
+Data can be Encrypted so that only people with a decryption key can read it.
+
+Encription works by encrypting data with an encryption key which will make the data into a ciher text the cipher text can only be decrypted using the decryption key. This can make the data private and make it so that even if someone gets access to the sent data they can not use it.
